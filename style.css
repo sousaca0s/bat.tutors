@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: goldenrod;
+}
+
+header{
+    background-color: black;
+    color: goldenrod;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+nav{
+    background-color: goldenrod;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    text-decoration: wavy;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:ghostwhite;
+}
+
+section h2{
+    padding: auto;
+    margin-bottom: 25px;
+}
+
+.apresentação{
+    margin: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.apresentação img{
+    align-items: center;
+    padding: 25px;
+}
+
+.apresentação h2{
+    margin: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 25px;
+}
+
+.Tutoriais{
+    margin: 10px;
+    text-align: center;
+    padding: 30px 20px 50px;
+}
+.Tutoriais h3{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card {
+    background-color: goldenrod;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+}
+
+.Sobre{
+    margin: 25px;
+    padding: 25px;
+}
+
+.Sobre h4{
+    margin: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
